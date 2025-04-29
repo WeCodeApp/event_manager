@@ -29,6 +29,7 @@
         style="box-shadow: 2px 2px 12px 2px #a9a9a9"
       >
         <v-card-title :style="{ backgroundColor: event.color }">
+          <!-- <h5>Participants: </h5> -->
           <div style="display: flex; justify-content: end; width: 100%">
             <h6
               @click="editEvent(event)"
